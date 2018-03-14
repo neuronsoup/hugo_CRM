@@ -3,5 +3,5 @@ build:
 	hugo
 deploy: build
 	aws s3 sync public/ s3://adamfairhurst.com --acl public-read --delete
-	aws comfigure set preview.cloudfront true
+	aws configure set preview.cloudfront true
 	aws cloudfront create-invalidation --distribution-id E2HED0CQGPJ25 --paths '/*'
