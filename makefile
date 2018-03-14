@@ -1,3 +1,3 @@
-buid:
+build:
 	rm -rf public
 	hugo
