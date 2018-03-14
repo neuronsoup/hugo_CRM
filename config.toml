@@ -6,7 +6,7 @@ paginate = 10
 # Enable comments powered by Disqus by entering your disqus shortname
 # Enable gogle analytics by entering your tracking code
 googleAnalytics = ""
-theme = "hugo-minimalist-theme"
+theme = "hugo_minimalist_theme"
 
 [params]
     site_author = "John Doe"
